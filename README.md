@@ -60,6 +60,30 @@ Em que:
 - 1: Imagem gerada por IA;
 - 0: Imagem Real.
 
+## 🧪 Como Rodar
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/PipInstallGustavo/Real-Fake-People-Discriminator.git
+cd Real-Fake-People-Discriminator
+```
+
+### 2. Criar um Ambiente Virtual do Python
+```bash
+python3 -m venv ML_final
+source ML_final/bin/activate  # No Windows: ML_final\Scripts\activate
+```
+
+### 3. Instale as dependências
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Execute o notebook
+
+**OBS:** Certifique-se de que você tenha as pastas data/IA e data/Real com as imagens organizadas corretamente antes de executar as células de treinamento. 
 
 
 ## Link para download do dataset
